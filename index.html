@@ -2,7 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="./index.css" />
-    <script type="javascript" src="./index.js"></script>
+    <script src="./index.js"></script>
 </head>
 <body>
     <div id="Container">
@@ -10,7 +10,14 @@
             <div id="Slime"></div>
         </div>
         <div id="Controls">
-            <input type="range" title="Test" />
+            <input id="TLWidth" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="TLHeight" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="TRWidth" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="TRHeight" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="BLWidth" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="BLHeight" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="BRWidth" type="range" title="Test" onchange="window.updateSlime();" />
+            <input id="BRHeight" type="range" title="Test" onchange="window.updateSlime();" />
         </div>
     </div>
 </body>
